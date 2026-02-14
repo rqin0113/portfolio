@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my projects, skills, and experience. Built with vanilla HTML, CSS, and JavaScript featuring dynamic animations, dark mode, and interactive elements.
 
-![Portfolio Preview](images/preview.png)
+🔗 **Live Site:** [https://rqin0113.github.io/portfolio/](https://rqin0113.github.io/portfolio/)
 
 ## ✨ Features
 
