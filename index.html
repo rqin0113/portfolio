@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Riza Qin | Portfolio</title>
+</head>
+
+<body>
+  <!-- Floating particles background -->
+  <div class="particles-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/" class="logo-link">
+        <span class="logo-bracket">{</span>
+        <span class="logo-name">RQ</span>
+        <span class="logo-bracket">}</span>
+      </a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/rqin0113" target="_blank" rel="noopener noreferrer" class="nav-link">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/riza-qin-99990a28a/" target="_blank" rel="noopener noreferrer" class="nav-link">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+
+      <a href="mailto:riza2022sz@outlook.com" class="nav-link">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <div class="greeting-container">
+          <h1 class="greeting">Hi, I'm <span class="name-highlight">Riza</span> 👋</h1>
+          <div class="typing-container">
+            <span class="typing-prefix">I love</span>
+            <span class="typing-text"></span>
+            <span class="cursor">|</span>
+          </div>
+        </div>
+        
+        <p class="intro-text">First-year <strong>Mathematics student</strong> at the University of Waterloo with a passion for software development, data science, and finance.</p>
+        
+        <p class="intro-text">I enjoy working on both front-end and back-end projects, and I'm interested in applying statistical analysis, modeling, and case-driven insights to solve real problems.</p>
+        
+        <p class="intro-text">Outside of academics and tech, I'm also an <strong>active curling player!</strong> 🥌</p>
+
+        <div class="links">
+          <a href="#skills" class="cta-button">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#projects" class="cta-button">
+            <i class="fa-solid fa-rocket"></i>
+            <span>Projects</span>
+          </a>
+
+          <a href="#contact" class="cta-button">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <div class="headshot-border"></div>
+        <img src="images/image1.jpg" alt="riza qin headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">
+        <span class="title-bracket">&lt;</span>
+        Skills
+        <span class="title-bracket">/&gt;</span>
+      </h2>
+      <p class="section-subtitle">Full-stack proficiency with a love for data science and ML</p>
+
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-code"></i>
+            Languages
+          </h3>
+          <div class="skill-items">
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Java</div>
+            <div class="skill-tag">C</div>
+            <div class="skill-tag">R</div>
+            <div class="skill-tag">SQL</div>
+            <div class="skill-tag">Racket</div>
+          </div>
+        </div>
+
+        <!-- ML / Data -->
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-brain"></i>
+            ML / Data Science
+          </h3>
+          <div class="skill-items">
+            <div class="skill-tag">Pandas</div>
+            <div class="skill-tag">NumPy</div>
+            <div class="skill-tag">Matplotlib</div>
+            <div class="skill-tag">Scikit-learn</div>
+            <div class="skill-tag">TensorFlow</div>
+            <div class="skill-tag">PyTorch</div>
+          </div>
+        </div>
+
+        <!-- Web -->
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-globe"></i>
+            Web Development
+          </h3>
+          <div class="skill-items">
+            <div class="skill-tag">HTML/CSS</div>
+            <div class="skill-tag">JavaScript</div>
+            <div class="skill-tag">React</div>
+            <div class="skill-tag">Flask</div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-tools"></i>
+            Tools & Platforms
+          </h3>
+          <div class="skill-items">
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">AWS</div>
+            <div class="skill-tag">Linux</div>
+            <div class="skill-tag">Jupyter</div>
+            <div class="skill-tag">VS Code</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">
+        <span class="title-bracket">&lt;</span>
+        Projects
+        <span class="title-bracket">/&gt;</span>
+      </h2>
+      <p class="section-subtitle">Some things I've built and explored</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fa-solid fa-circle-dot"></i>
+          </div>
+          <h3 class="project-title">Curling Shot Advisor</h3>
+          <p class="project-description">Full-stack web application that analyzes curling stone positions and recommends optimal shots using strategic position-based algorithms with spiral search pattern for collision-free placement. Features interactive canvas interface with gradient rendering and real-time collision detection.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">FastAPI</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">HTML5 Canvas</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/rqin0113/curling-shot-advisor" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-brands fa-github"></i>
+              View Code
+            </a>
+            <a href="https://rqin0113.github.io/curling-shot-advisor/" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Live Demo
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3 class="project-title">False Productivity Detection</h3>
+          <p class="project-description">Machine learning pipeline to detect false productivity patterns in 10,000+ simulated task logs using behavioral pattern analysis. Engineered 15 behavioral features and trained Logistic Regression and Random Forest models, achieving 82% accuracy and 0.79 F1 score.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Pandas</span>
+            <span class="project-tag">Scikit-learn</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/rqin0113/false-productivity-detection" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-brands fa-github"></i>
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <h3 class="project-title">Personal Portfolio</h3>
+          <p class="project-description">Responsive portfolio website featuring dark/light mode toggle using CSS variables and JavaScript DOM manipulation. Implemented contact form with client-side validation and email integration for direct messaging.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/rqin0113/portfolio" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-brands fa-github"></i>
+              View Code
+            </a>
+            <a href="https://rqin0113.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="project-link">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">
+        <span class="title-bracket">&lt;</span>
+        Get In Touch
+        <span class="title-bracket">/&gt;</span>
+      </h2>
+
+      <div class="contact-container">
+        <div class="contact-text">
+          <p class="contact-intro">I'd love to hear from you! Whether you have a question, a project idea, or just want to say hi — feel free to reach out using the form here.</p>
+
+          <div class="contact-details">
+            <a href="mailto:riza2022sz@outlook.com" class="contact-detail-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>riza2022sz@outlook.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/riza-qin-99990a28a/" target="_blank" class="contact-detail-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn Profile</span>
+            </a>
+            <a href="https://github.com/rqin0113" target="_blank" class="contact-detail-item">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub Profile</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/xkgplqne" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="send-btn">
+            <span>Send Message</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+      
+      <div class="success-message" style="display: none;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with <span class="heart">❤️</span> by Riza Qin © 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
